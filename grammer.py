@@ -11,15 +11,31 @@
 # else :
 #     print('해당 차량이 존재하지 않습니다.')
 
-중고차들 = ['K5', 'BMW', 'Tico']
+#중고차들 = ['K5', 'BMW', 'Tico']
 
-for i in range(0,10) :
-    print('BMW 있어여')
+#for i in range(0,10) :
+#    print('BMW 있어여')
     
-for j in range(0,3) :
-    print(중고차들[j])
+#for j in range(0,3) :
+#    print(중고차들[j])
     
-for k in 중고차들 :
-    print(k)
+#for k in 중고차들 :
+#    print(k)
 
+def CallMe() :
+    for i in range(0,5) :
+        if i > 3 :
+            print('하이')
+     
+CallMe()  
+
+def 모자(구멍, 구멍2) :
+    print(구멍 + 구멍2)
+    print(구멍 + 1)
     
+모자(123, 33)
+
+def 함수() :
+    return 10
+
+print(함수() + 2)
