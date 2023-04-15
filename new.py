@@ -1,11 +1,12 @@
-from turtle import *
-color("red")
-begin_fill()
-pensize(3)
-left(50)
-forward(133)
-circle(50,200)
-right(140)
-circle(50,200)
-forward(133)
-end_fill()
+data = dict()
+data['사과'] = 'Apple'
+data['바나나'] = 'Banana'
+data['코코넛'] = 'Coconut'
+
+data.keys() # key만
+data.values() # value만
+
+s = {1, 2, 3}
+# set.add(v) 새로운 원소 추가
+s.add(4) # {1, 2, 3, 4}
+print(s)
